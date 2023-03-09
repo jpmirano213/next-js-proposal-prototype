@@ -6,7 +6,6 @@ import Sidebar from "./sidebar";
 
 const Layout = (props: PropsWithChildren) => {
   const router = useRouter();
-  console.log(router)
   const [collapsed, setSidebarCollapsed] = useState(false);
   const [showSidebar, setShowSidebar] = useState(true);
   return (

@@ -13,22 +13,22 @@ export type NavItem = {
 export const defaultNavItems: NavItem[] = [
   {
     label: "Dashboard",
-    href: "/",
+    href: "/dashboard",
     icon: <GoDashboard />,
   },
   {
     label: "Devices",
-    href: "/",
+    href: "/dashboard",
     icon: <MdOutlineDevices />,
   },
   {
     label: "History",
-    href: "/",
+    href: "/dashboard",
     icon: <AiOutlineHistory />,
   },
   {
     label: "Alerts",
-    href: "/",
+    href: "/dashboard",
     icon: <FiAlertTriangle />,
   }
 ];
